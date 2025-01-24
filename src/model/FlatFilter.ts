@@ -2,18 +2,16 @@ import { Coordinates } from './Coordinates';
 
 export class FlatFilter {
 
-    private minPrice: number|undefined;
-    private maxPrice: number|undefined;
-    private minSize: number|undefined;
-    private maxSize: number|undefined;
-    private minRooms: number|undefined;
-    private maxRooms: number|undefined;
-    private topRight: Coordinates|undefined;
-    private bottomLeft: Coordinates|undefined;
+    private minPrice: number|undefined = undefined;
+    private maxPrice: number|undefined = undefined;
+    private minSize: number|undefined = undefined;
+    private maxSize: number|undefined = undefined;
+    private minRooms: number|undefined = undefined;
+    private maxRooms: number|undefined = undefined;
+    private topRight: Coordinates|undefined = undefined;
+    private bottomLeft: Coordinates|undefined = undefined;
 
-    constructor( 
-    ) {}
-    
+
     get MinPrice(): number|undefined {
         return this.minPrice;
     }

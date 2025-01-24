@@ -15,6 +15,26 @@ Vite.js or Create React App: For bootstrapping the project.
 
 I wil choose Axios. I am not sure about Material-UI, I will ask Johnny.
 
+## Prereqisites
+node.js and npm
+vite
+
+## Build
+If you add or change a dependecy, build the project
+```
+npm install
+```
+
+## Running tests
+```
+npx jest
+```
+
+## Running dev server
+```
+npm run dev
+```
+
 --------------------------------------------------------------------------------
 # Original README.md content created by vite
 
